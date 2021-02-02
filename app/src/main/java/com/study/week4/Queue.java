@@ -13,7 +13,11 @@ public class Queue {
 
     public void enqueue(int data){
         if (rear >= q.length){
-            q = new int[q.length * 2];
+            int temp[] = new int[q.length * 2];
+            for (int i = front; i < q.length; i++){
+                temp[i] = q[i];
+            }
+            q = temp;
         }
         rear++;
         q[rear - 1] = data;
