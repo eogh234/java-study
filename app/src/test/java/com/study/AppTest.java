@@ -3,7 +3,7 @@
  */
 package com.study;
 
-import com.study.App;
+import com.study.week4.App;
 import org.junit.*;
 
 import static org.junit.Assert.*;

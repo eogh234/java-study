@@ -1,7 +1,6 @@
 package com.study;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
+import com.study.week4.Multiply;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
